@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /opt/marga-flask-app
 
 # install required packages for system
 RUN apt-get update \
